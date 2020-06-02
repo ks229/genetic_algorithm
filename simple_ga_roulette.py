@@ -5,8 +5,7 @@
 import random
 import math
 
-#breeding
-#mutate
+
 
 
 #below function is used to generate the initial population and use that to form parent and offsprings
@@ -106,5 +105,5 @@ if __name__ == '__main__':
         population = make_next_generation(population)
 
 best_individual = sorted_population(population)[-1]
-print("\n🔬 FINAL RESULT")
+print("\n FINAL RESULT")
 print(best_individual, fitness_function(best_individual))
